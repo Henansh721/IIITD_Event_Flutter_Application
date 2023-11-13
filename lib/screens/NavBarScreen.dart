@@ -1,9 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:iiitd_evnts/screens/ClubScreen.dart';
-import 'package:iiitd_evnts/screens/EventScreen.dart';
 import 'package:iiitd_evnts/screens/HomeScreen.dart';
 import 'package:provider/provider.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';

@@ -9,9 +9,7 @@ import 'package:iiitd_evnts/providers/ClubDetailProvider.dart';
 import 'package:iiitd_evnts/screens/ClubScreen.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:provider/provider.dart';
-import 'package:iiitd_evnts/providers/EventDetailsProvider.dart';
 import 'package:iiitd_evnts/providers/NavBarIndexProvider.dart';
-import 'package:iiitd_evnts/screens/HomeScreen.dart';
 
 class MockClubDetailProvider extends Mock implements ClubDetailProvider {}
 
@@ -31,7 +29,6 @@ void main() {
 
     final auth = MockFirebaseAuth(signedIn: true, mockUser: mockUser);
 
-    final mockHttpClient = MockHttpClient();
 
     final mockClubDetailProvider = MockClubDetailProvider();
     when(() => mockClubDetailProvider.fetchGlobalClubList())

@@ -1,5 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:iiitd_evnts/models/ClubModel.dart';
 
 class EventModel {
   String name;

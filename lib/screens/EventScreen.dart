@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -7,13 +9,10 @@ import 'package:iiitd_evnts/models/EventDiscussionModel.dart';
 import 'package:iiitd_evnts/models/EventModel.dart';
 import 'package:iiitd_evnts/screens/NavBarScreen.dart';
 import 'package:provider/provider.dart';
-import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
 import '../components/EventInformationCard.dart';
 import '../providers/EventDetailsProvider.dart';
 import '../providers/NavBarIndexProvider.dart';
-import 'ProfileScreen.dart';
-import 'SubEventScreen.dart';
 
 class EventScreen extends StatefulWidget {
   EventScreen({super.key, required this.eventDetails});

@@ -7,7 +7,6 @@ import 'package:iiitd_evnts/providers/ClubDetailProvider.dart';
 import 'package:iiitd_evnts/providers/EventDetailsProvider.dart';
 import 'package:iiitd_evnts/providers/LoginProvider.dart';
 import 'package:iiitd_evnts/providers/NavBarIndexProvider.dart';
-import 'package:iiitd_evnts/screens/HomeScreen.dart';
 import 'package:iiitd_evnts/screens/LoginScreen.dart';
 import 'package:iiitd_evnts/screens/NavBarScreen.dart';
 import 'package:provider/provider.dart';

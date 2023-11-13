@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -6,8 +8,6 @@ import 'package:iiitd_evnts/providers/EventDetailsProvider.dart';
 import 'package:provider/provider.dart';
 
 import '../components/GridViewWidget.dart';
-import '../providers/NavBarIndexProvider.dart';
-import 'EventScreen.dart';
 import 'ProfileScreen.dart';
 
 class HomeScreen extends StatefulWidget {

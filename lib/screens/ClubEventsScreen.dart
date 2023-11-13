@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -7,7 +9,6 @@ import 'package:provider/provider.dart';
 
 import '../components/GridViewWidget.dart';
 import '../providers/NavBarIndexProvider.dart';
-import 'EventScreen.dart';
 import 'NavBarScreen.dart';
 
 class ClubEventsScreen extends StatefulWidget {
@@ -413,6 +414,6 @@ class _ClubEventsScreenState extends State<ClubEventsScreen> {
       //     ),
       //   ],
       // ),
-    );;
+    );
   }
 }
